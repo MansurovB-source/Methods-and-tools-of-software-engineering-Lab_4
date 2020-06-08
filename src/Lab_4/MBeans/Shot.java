@@ -7,7 +7,7 @@ public class Shot extends NotificationBroadcasterSupport implements ShotMBean {
     private int counter = 0;
     private int miss_counter = 0;
     private int  sequence = 0;
-    Shot() {}
+    public Shot() {}
     @Override
     public int getCounter() {
         return counter;
